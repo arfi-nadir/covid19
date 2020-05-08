@@ -1,0 +1,27 @@
+body {
+  background-color: #ebe9e9;
+  font-family: "saxMono";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 400px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
